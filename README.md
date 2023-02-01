@@ -1,2 +1,4 @@
 # myRep2
-2nd repository for git practice - PSL
+PSL JavaScript practice repo
+
+It's a practice repository to understand javaScript concepts.
