@@ -37,15 +37,6 @@
                         }
                         document.getElementById("demo").innerHTML = table;
                         }
-
-
-
-
-            
-
-
-    </script>
-
-    
+    </script> 
 </body>
 </html>
