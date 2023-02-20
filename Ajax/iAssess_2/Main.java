@@ -1,4 +1,4 @@
-// package CollectionsAndMap.iAssess_2;
+// package CollectionsAndMap.iAssess
 
 import java.util.Scanner;
 
