@@ -34,3 +34,43 @@ function myFunction(xml) {
 loadDoc();
 
 </script>
+
+</head>
+<body>
+<h1>Book List</h1>
+<div id="booklist">
+<table id="demo">
+    </table>
+
+<div class="formData">
+            <div class="fields">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+    <label for="price">Price:</label>
+    <input type="text" id="price" name="price" />
+    <label for="availableQuantity">Available Quantity:</label>
+    <input type="text" id="availableQuantity" name="availableQuantity" />
+
+            </div>
+</div>
+<button id="convertToJSON" onclick="tojson()">Convert to JSON</button>
+<div id="jsonData">
+
+</div>
+<script>
+    // input text into jason Object print in div id=jsondata
+    function tojson(){
+        var name = document.getElementById("name").value;
+        var price = document.getElementById("price").value;
+        var availableQuantity = document.getElementById("availableQuantity").value;
+        var jsonData = {
+            "Book Name": name,
+            "Author Name": price,
+            "Price": availableQuantity
+        };
+        document.getElementById("jsonData").innerHTML = JSON.stringify(jsonData);
+    }
+</script>
+
+</body>
+</html>
