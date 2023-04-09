@@ -63,3 +63,52 @@
         }
     </style>
 </head>
+
+<body>
+    <h1>Pink Frag Event Organization</h1>
+    <button id="add" onclick="addClass()">Add</button>
+    <button id="remove" onclick="removeClass()">Remove</button>
+    <button id="toggle" onclick="toggleClass()">Toggle</button>
+    <div id="div1" >Wedding Event </div>
+    <div id="div2" >Conferences</div>
+    <div id="div3" >Birthday Party</div>
+    <div id="div4" >Trade Fairs</div>
+
+</body>
+<script>
+    function addClass() {
+        var a = document.getElementById("div1");
+        var b = document.getElementById("div2");
+        var c = document.getElementById("div3");
+        var d = document.getElementById("div4");
+        a.classList.add("class1");
+        b.classList.add("class2");
+        c.classList.add("class3");
+        d.classList.add("class4");
+    }
+
+    function removeClass() {
+        var a = document.getElementById("div1");
+        var b = document.getElementById("div2");
+        var c = document.getElementById("div3");
+        var d = document.getElementById("div4");
+        a.classList.remove("class1");
+        b.classList.remove("class2");
+        c.classList.remove("class3");
+        d.classList.remove("class4");
+
+    }
+
+    function toggleClass() {
+        var a = document.getElementById("div1");
+        var b = document.getElementById("div2");
+        var c = document.getElementById("div3");
+        var d = document.getElementById("div4");
+        a.classList.toggle("class1");
+        b.classList.toggle("class2");
+        c.classList.toggle("class3");
+        d.classList.toggle("class4");
+
+    }
+</script>
+</html>
