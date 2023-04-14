@@ -67,3 +67,14 @@
              }
     	 </script>
 	</head>
+	<body>
+        <h3>Phone Number & Card Validation</h3>
+        Enter your Phone Number:<input type="text" onkeydown="checkPhoneNumber()" id="phoneNumber" oninput="checkPhoneNumber()">
+        <div id="phoneNumber_Warning"></div></br>
+        
+        Enter your Card Number:<input type="text" onkeydown="checkCardNumber()" id="cardNumber" oninput="checkCardNumber()">
+        <div id="cardNumber_Warning"></div></br>
+        <button type="button" id="validate" onclick="validate()">Validate</button>
+       <div id="success" style="display:none">Details stored in database</div>
+	</body>
+</html>
