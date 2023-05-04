@@ -1,27 +1,23 @@
-package CollectionsAndMap.iDesign_1;
+var fs = require('fs');
+var input=fs.readFileSync('input.txt').toString().trim().split('\n');
 
-import java.util.ArrayList;
-import java.util.Scanner;
+var op=Number(input[0]);
+var input1=Number(input[1]);
+var input2=Number(input[2]);
+performOperation(op,input1,input2);
+function performOperation(op,inp1,inp2){
+    if(op==1)
+    console.log(inp1+inp2);
+     else if(op==2)
+    console.log(inp1-inp2);
+     else if(op==3)
+    console.log(inp1*inp2);
+    else if(op==4)
+    console.log(inp1/inp2);
+    else
+    console.log('Wrong Operation');
+    
+    
+    
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number of halls:");
-        int n = in.nextInt();
-        in.nextLine();
-        ArrayList<String> list = new ArrayList();
-
-        for (int i = 0; i < n; i++) {
-            System.out.println("Enter the Hall Name " + (i + 1));
-            list.add(in.nextLine());
-        }
-
-        System.out.println("Enter the hall name to be searched:");
-        String s = in.nextLine();
-
-        if (list.contains(s))
-            System.out.println(s + " hall is found in the list at position " + list.indexOf(s));
-        else
-            System.out.println(s + " hall is not found");
-    }
 }
