@@ -16,8 +16,5 @@ function performOperation(op,inp1,inp2){
     console.log(inp1/inp2);
     else
     console.log('Wrong Operation');
-    
-    
-    
 
 }
