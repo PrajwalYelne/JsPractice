@@ -13,3 +13,14 @@ function isPrime(num)
         if (num % i == 0)
             count++;
     }
+
+    if (count == 2)
+        return true;
+    else
+        return false;
+}
+
+if(isPrime(num))
+    console.log("Prime");
+else
+    console.log("Not Prime");
