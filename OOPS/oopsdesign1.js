@@ -7,7 +7,6 @@ var input2 = input[1].trim().split(',');
 //console.log(input1);
 //console.log(input2);
 
-//Fill your code here
 
 function SuperHero(name, alias, planet){
     this.name = name;
