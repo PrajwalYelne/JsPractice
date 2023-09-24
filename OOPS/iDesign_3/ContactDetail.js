@@ -4,15 +4,11 @@ public class ContactDetail {
     String mobile;
     String alternateMobile;
     String landLine;
-    String email;
-    String address;
 
     public ContactDetail(String mobile, String alternateMobile, String landLine, String email, String address) {
         this.mobile = mobile;
         this.alternateMobile = alternateMobile;
         this.landLine = landLine;
-        this.email = email;
-        this.address = address;
     }
 
     public String getMobile() {
