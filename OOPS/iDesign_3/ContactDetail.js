@@ -35,12 +35,3 @@ public class ContactDetail {
         this.landLine = landLine;
     }
 
-    @Override
-    public String toString() {
-        return "Mobile:" + this.mobile +
-                "\nAlternate mobile:" + this.alternateMobile +
-                "\nLandLine:" + this.landLine +
-                "\nEmail:" + this.email +
-                "\nAddress:" + this.address;
-    }
-}
