@@ -12,3 +12,26 @@ class Shape{
         this.nos = nos;
         this.color = color;
     }
+        displayShapeColor(){
+        console.log(this.name + " is in color " + this.color);
+    }
+}
+
+class Circle extends Shape{
+    displayShapeSides(){
+        console.log("Circle has " + this.nos + " sides");
+    }
+}
+
+class Square extends Shape{
+    displayShapeSides(){
+        console.log("Square has " + this.nos + " sides");
+    }
+}
+
+class Triangle extends Shape{
+    displayShapeSides(){
+        console.log("Triangle has " + this.nos + " sides");
+    }
+}
+
