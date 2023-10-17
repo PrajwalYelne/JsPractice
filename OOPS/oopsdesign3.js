@@ -23,9 +23,3 @@ class Circle extends Shape{
         console.log("Circle has " + this.nos + " sides");
     }
 }
-
-class Square extends Shape{
-    displayShapeSides(){
-        console.log("Square has " + this.nos + " sides");
-    }
-}
