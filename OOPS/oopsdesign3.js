@@ -29,10 +29,3 @@ class Square extends Shape{
         console.log("Square has " + this.nos + " sides");
     }
 }
-
-class Triangle extends Shape{
-    displayShapeSides(){
-        console.log("Triangle has " + this.nos + " sides");
-    }
-}
-
