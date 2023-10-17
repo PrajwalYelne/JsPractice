@@ -39,12 +39,3 @@ class Triangle extends Shape{
 var circle = new Circle(input1[0], input1[1], input1[2]);
 var square = new Square(input2[0], input2[1], input2[2]);
 var triangle = new Triangle(input3[0], input3[1], input3[2]);
-
-circle.displayShapeColor();
-circle.displayShapeSides();
-
-square.displayShapeColor();
-square.displayShapeSides();
-
-triangle.displayShapeColor();
-triangle.displayShapeSides();
