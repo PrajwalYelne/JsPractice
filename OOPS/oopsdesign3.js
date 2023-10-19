@@ -17,9 +17,3 @@ class Shape{
         console.log(this.name + " is in color " + this.color);
     }
 }
-
-class Circle extends Shape{
-    displayShapeSides(){
-        console.log("Circle has " + this.nos + " sides");
-    }
-}
