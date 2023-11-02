@@ -31,11 +31,3 @@ public class User implements Comparable<User>{
     public void setBankname(String bankname) {
         this.bankname = bankname;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(username, user.username);
-    }
