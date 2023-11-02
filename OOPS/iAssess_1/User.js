@@ -49,12 +49,3 @@ public class User implements Comparable<User>{
     public int compareTo(User u) {
         return this.getUsername().compareTo(u.getUsername());
     }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", bankname='" + bankname + '\'' +
-                '}';
-    }
-}
