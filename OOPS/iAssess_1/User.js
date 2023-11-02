@@ -27,7 +27,3 @@ public class User implements Comparable<User>{
     public String getBankname() {
         return bankname;
     }
-
-    public void setBankname(String bankname) {
-        this.bankname = bankname;
-    }
