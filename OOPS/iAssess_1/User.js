@@ -39,8 +39,3 @@ public class User implements Comparable<User>{
         User user = (User) o;
         return Objects.equals(username, user.username);
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(username);
-    }
