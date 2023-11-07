@@ -10,8 +10,3 @@ public class User implements Comparable<User>{
         this.username = username;
         this.bankname = bankname;
     }
-
-    public User() {
-        this.username = "";
-        this.bankname = "";
-    }
