@@ -15,7 +15,3 @@ public class User implements Comparable<User>{
         this.username = "";
         this.bankname = "";
     }
-
-    public String getUsername() {
-        return username;
-    }
