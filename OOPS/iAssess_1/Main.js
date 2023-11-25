@@ -14,9 +14,7 @@ public class Main {
             System.out.println("Username:");
             String username = in.nextLine();
             System.out.println("Bank name:");
-            String bankname = in.nextLine();
 
-            set.add(new User(username, bankname));
         }
     }
 }
