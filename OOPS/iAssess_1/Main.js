@@ -32,12 +32,5 @@ public class Main {
         }
 
         set.retainAll(toRetain);
-
-        int i = 1;
-        for (User u : set) {
-            System.out.println("User " + (i++));
-            System.out.println("User Name = " + u.getUsername());
-            System.out.println("Bank Name = " + u.getBankname());
-        }
     }
 }
