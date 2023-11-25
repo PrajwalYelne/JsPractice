@@ -27,10 +27,5 @@ public class Main {
         System.out.println("Users going to expire within a month");
         ArrayList<User> toRetain = new ArrayList<>();
 
-        for (int i = 0; i < input.length; i++) {
-            toRetain.add(new User(input[i], null));
-        }
-
-        set.retainAll(toRetain);
     }
 }
