@@ -20,12 +20,5 @@ public class Main {
 
             set.add(new User(username, bankname));
         }
-
-        System.out.println("Enter username(Expire in one month) seperated by comma");
-        String[] input = in.nextLine().split(",");
-
-        System.out.println("Users going to expire within a month");
-        ArrayList<User> toRetain = new ArrayList<>();
-
     }
 }
