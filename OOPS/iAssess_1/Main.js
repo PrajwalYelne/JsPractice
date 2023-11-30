@@ -7,7 +7,6 @@ public class Main {
         int n = in.nextInt();
         in.nextLine();
 
-        Set<User> set = new TreeSet<>();
         }
     }
 }
