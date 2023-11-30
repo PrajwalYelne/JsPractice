@@ -12,8 +12,6 @@ public class Main {
             System.out.println("Enter details of user" + (i + 1));
 
             System.out.println("Username:");
-            String username = in.nextLine();
-            System.out.println("Bank name:");
 
         }
     }
