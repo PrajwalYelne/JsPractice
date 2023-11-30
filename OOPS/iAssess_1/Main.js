@@ -8,8 +8,6 @@ public class Main {
         in.nextLine();
 
         Set<User> set = new TreeSet<>();
-        for (int i = 0; i < n; i++) {
-            System.out.println("Enter details of user" + (i + 1));
         }
     }
 }
