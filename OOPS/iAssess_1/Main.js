@@ -10,9 +10,6 @@ public class Main {
         Set<User> set = new TreeSet<>();
         for (int i = 0; i < n; i++) {
             System.out.println("Enter details of user" + (i + 1));
-
-            System.out.println("Username:");
-
         }
     }
 }
