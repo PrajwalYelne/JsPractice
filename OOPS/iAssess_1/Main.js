@@ -8,3 +8,5 @@ let str =name.trim().split(",");
 let Person = {
     name : str[0]
 }
+
+let Employee = {
