@@ -5,3 +5,6 @@ let str =name.trim().split(",");
  
 //Fill your code here
  
+let Person = {
+    name : str[0]
+}
