@@ -11,3 +11,4 @@ let Person = {
 
 let Employee = {
  employeeId : str[1]
+}
