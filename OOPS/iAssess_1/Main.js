@@ -13,3 +13,5 @@ let Employee = {
 }
 
 Employee._proto_=Person;
+
+console.log("Using inherited instance");
