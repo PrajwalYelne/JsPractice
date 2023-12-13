@@ -11,3 +11,5 @@ let Person = {
 let Employee = {
  employeeId : str[1]
 }
+
+Employee._proto_=Person;
