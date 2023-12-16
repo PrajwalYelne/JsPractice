@@ -7,9 +7,3 @@ let str =name.trim().split(",");
 let Person = {
     name : str[0]
 }
- 
-let Employee = {
-    employeeId : str[1]
-}
- 
-Employee._proto_=Person;
