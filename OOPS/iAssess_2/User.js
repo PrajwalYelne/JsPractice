@@ -51,8 +51,4 @@ public class User implements Comparable<User> {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    void display() {
-        System.out.printf("%-20s%-20s%-20s%-20s\n", name, contactNumber, userName, email);
-    }
 }
