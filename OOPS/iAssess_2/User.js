@@ -55,9 +55,4 @@ public class User implements Comparable<User> {
     void display() {
         System.out.printf("%-20s%-20s%-20s%-20s\n", name, contactNumber, userName, email);
     }
-
-    @Override
-    public int compareTo(User o) {
-        return this.getName().compareTo(o.getName());
-    }
 }
