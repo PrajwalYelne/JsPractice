@@ -43,8 +43,4 @@ public class User implements Comparable<User> {
     public void setUserName(String userName) {
         this.userName = userName;
     }
-
-    public String getEmail() {
-        return email;
-    }
 }
