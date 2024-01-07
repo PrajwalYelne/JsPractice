@@ -35,8 +35,4 @@ public class User implements Comparable<User> {
     public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
     }
-
-    public String getUserName() {
-        return userName;
-    }
 }
