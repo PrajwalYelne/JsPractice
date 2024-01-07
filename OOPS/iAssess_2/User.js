@@ -21,6 +21,5 @@ public class User implements Comparable<User> {
     }
 
     public String getName() {
-        return name;
-    }
+
 }
