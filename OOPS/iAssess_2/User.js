@@ -19,7 +19,4 @@ public class User implements Comparable<User> {
         this.userName = null;
         this.email = null;
     }
-
-    public String getName() {
-
 }
