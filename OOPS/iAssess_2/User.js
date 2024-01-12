@@ -6,7 +6,4 @@ public class User implements Comparable<User> {
     private String userName;
     private String email;
 
-    public User(String name, String contactNumber, String userName, String email) {
-        this.name = name;
-        this.contactNumber = contactNumber;
 }
