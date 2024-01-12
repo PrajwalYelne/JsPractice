@@ -16,7 +16,4 @@ public class User implements Comparable<User> {
     public User() {
         this.name = null;
         this.contactNumber = null;
-        this.userName = null;
-        this.email = null;
-    }
 }
