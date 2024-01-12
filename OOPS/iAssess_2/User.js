@@ -4,6 +4,4 @@ public class User implements Comparable<User> {
     private String name;
     private String contactNumber;
     private String userName;
-    private String email;
-
 }
