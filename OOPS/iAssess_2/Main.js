@@ -31,11 +31,6 @@ public class Main {
 
         list.removeUser(n1, n2);
 
-        System.out.println("Name                Contact Number      Username            Email               ");
-        for (User u : list) {
-            u.display();
         }
-
-
     }
 }
