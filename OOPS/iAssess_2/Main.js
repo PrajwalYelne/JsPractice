@@ -26,8 +26,6 @@ public class Main {
         }
 
         System.out.println("Enter the range to be removed from array list");
-        int n1 = in.nextInt();
-        int n2 = in.nextInt();
 
         }
     }
