@@ -29,8 +29,6 @@ public class Main {
         int n1 = in.nextInt();
         int n2 = in.nextInt();
 
-        list.removeUser(n1, n2);
-
         }
     }
 }
