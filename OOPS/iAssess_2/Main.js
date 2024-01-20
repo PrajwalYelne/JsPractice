@@ -21,9 +21,6 @@ public class Main {
 
         System.out.println("Name                Contact Number      Username            Email               ");
 
-        for (User u : list) {
-            u.display();
-           }
         }
     }
 }
