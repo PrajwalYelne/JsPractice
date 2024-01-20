@@ -23,10 +23,7 @@ public class Main {
 
         for (User u : list) {
             u.display();
-        }
-
-        System.out.println("Enter the range to be removed from array list");
-
+           }
         }
     }
 }
