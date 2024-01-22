@@ -17,10 +17,7 @@ public class Main {
             String[] input = in.nextLine().split(",");
             User u = new User(input[0], input[1], input[2], input[3]);
             list.add(u);
-        }
-
-        System.out.println("Name                Contact Number      Username            Email               ");
-
+           }
         }
     }
 }
