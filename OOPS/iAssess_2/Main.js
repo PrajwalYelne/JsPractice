@@ -10,13 +10,6 @@ public class Main {
 
         UserBO list = new UserBO();
         list.addAll(UserBO.getList());
-
-        for (int i = 0; i < n; i++) {
-            System.out.println("Enter the user " + (i + 1) + " detail in csv format");
-            String[] input = in.nextLine().split(",");
-            User u = new User(input[0], input[1], input[2], input[3]);
-            list.add(u);
-           }
         }
     }
 }
