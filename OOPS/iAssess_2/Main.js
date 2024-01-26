@@ -7,9 +7,6 @@ public class Main {
         System.out.println("Enter the number of User details to be added");
         int n = in.nextInt();
         in.nextLine();
-
-        UserBO list = new UserBO();
-        list.addAll(UserBO.getList());
         }
     }
 }
