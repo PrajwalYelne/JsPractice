@@ -9,3 +9,8 @@ class Employee{
         this.dept = dept;
         this.DOJ = DOJ;
     }
+
+    displayEmployee(){
+        
+    }
+ }
