@@ -11,6 +11,8 @@ class Employee{
     }
 
     displayEmployee(){
-        
+        console.log("Name : " + this.name);
+        console.log("Department : " + this.dept);
+        console.log("DOJ : " + this.DOJ);
     }
  }
