@@ -17,4 +17,3 @@ class Employee{
 }
  
 let obj = new Employee(input[0], input[1], input[2]);
-
