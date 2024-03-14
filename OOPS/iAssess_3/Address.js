@@ -54,8 +54,4 @@ public class Address {
     public void setState(String state) {
         this.state = state;
     }
-
-    public String getPincode() {
-        return pincode;
-    }
 }
