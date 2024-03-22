@@ -51,5 +51,5 @@ public class Address {
         return state;
     }
 
-    public void setState(String state) {
+
 }
