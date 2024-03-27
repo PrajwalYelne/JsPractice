@@ -38,7 +38,4 @@ public class Address {
     public void setAddressLine2(String addressLine2) {
         this.addressLine2 = addressLine2;
     }
-
-    public String getCity() {
-
 }
