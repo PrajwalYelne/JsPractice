@@ -34,6 +34,4 @@ public class Address {
     public String getAddressLine2() {
         return addressLine2;
     }
-
-    public void setAddressLine2(String addressLine2) {
 }
