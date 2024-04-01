@@ -32,6 +32,5 @@ public class Address {
     }
 
     public String getAddressLine2() {
-        return addressLine2;
-    }
+
 }
