@@ -28,6 +28,5 @@ public class Address {
     }
 
     public void setAddressLine1(String addressLine1) {
-        this.addressLine1 = addressLine1;
-    }
+
 }
