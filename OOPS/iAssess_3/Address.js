@@ -27,6 +27,4 @@ public class Address {
         return addressLine1;
     }
 
-    public void setAddressLine1(String addressLine1) {
-
 }
