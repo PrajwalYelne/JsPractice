@@ -22,8 +22,4 @@ public class Address {
         this.state = "";
         this.pincode = "";
     }
-
-    public String getAddressLine1() {
-        return addressLine1;
-    }
 }
