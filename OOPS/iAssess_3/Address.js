@@ -18,6 +18,5 @@ public class Address {
     public Address() {
         this.addressLine1 = "";
         this.addressLine2 = "";
-        this.city = "";
     }
 }
