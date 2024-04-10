@@ -16,6 +16,5 @@ public class Address {
     }
 
     public Address() {
-        this.addressLine1 = "";
     }
 }
