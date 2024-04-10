@@ -20,6 +20,5 @@ public class Address {
         this.addressLine2 = "";
         this.city = "";
         this.state = "";
-        this.pincode = "";
     }
 }
