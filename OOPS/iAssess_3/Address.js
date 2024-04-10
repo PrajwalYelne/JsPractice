@@ -15,6 +15,4 @@ public class Address {
         this.pincode = pincode;
     }
 
-    public Address() {
-    }
 }
