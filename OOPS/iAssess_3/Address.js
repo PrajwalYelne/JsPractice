@@ -11,6 +11,5 @@ public class Address {
         this.addressLine1 = addressLine1;
         this.addressLine2 = addressLine2;
         this.city = city;
-        this.state = state;
     }
 }
