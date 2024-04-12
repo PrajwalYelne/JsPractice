@@ -12,7 +12,5 @@ public class Address {
         this.addressLine2 = addressLine2;
         this.city = city;
         this.state = state;
-        this.pincode = pincode;
     }
-
 }
