@@ -7,6 +7,5 @@ public class Address {
     private String state;
     private String pincode;
 
-    public Address(String addressLine1, String add {
-    }
+
 }
