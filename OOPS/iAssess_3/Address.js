@@ -9,6 +9,5 @@ public class Address {
 
     public Address(String addressLine1, String addressLine2, String city, String state, String pincode) {
         this.addressLine1 = addressLine1;
-        this.addressLine2 = addressLine2;
     }
 }
