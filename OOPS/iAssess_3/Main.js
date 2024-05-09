@@ -45,6 +45,4 @@ public class Main {
 }
 
 /*
-
-qq,ccc,dd,555
 * */
