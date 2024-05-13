@@ -38,7 +38,6 @@ public class Main {
             System.out.println("\nState:" + state);
             Map<String, Integer> m = map.get(state);
             for (String city : m.keySet()) {
-                System.out.println("City:" + city + " " + "Count:" + m.get(city));
             }
         }
     }
