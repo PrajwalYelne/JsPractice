@@ -35,7 +35,6 @@ public class Main {
 
         System.out.println("Number of entries in city/state wise:");
         for (String state : map.keySet()) {
-            System.out.println("\nState:" + state);
         }
     }
 }
