@@ -32,7 +32,5 @@ public class Main {
                 map.put(state, m);
             }
         }
-
-        System.out.println("Number of entries in city/state wise:");
     }
 }
