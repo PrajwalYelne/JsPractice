@@ -29,7 +29,6 @@ public class Main {
             } else {
                 Map<String, Integer> m = new TreeMap<>();
                 m.put(city, 1);
-                map.put(state, m);
             }
         }
     }
