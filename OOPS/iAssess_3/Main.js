@@ -26,7 +26,6 @@ public class Main {
                     m.replace(city, m.get(city) + 1);
                 else
                     m.put(city, 1);
-            } else {
             }
         }
     }
