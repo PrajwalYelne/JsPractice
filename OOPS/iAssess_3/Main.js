@@ -27,7 +27,6 @@ public class Main {
                 else
                     m.put(city, 1);
             } else {
-                Map<String, Integer> m = new TreeMap<>();
             }
         }
     }
