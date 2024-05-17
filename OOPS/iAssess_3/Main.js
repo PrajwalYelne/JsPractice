@@ -28,7 +28,6 @@ public class Main {
                     m.put(city, 1);
             } else {
                 Map<String, Integer> m = new TreeMap<>();
-                m.put(city, 1);
             }
         }
     }
