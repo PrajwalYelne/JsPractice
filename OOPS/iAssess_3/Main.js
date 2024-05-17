@@ -24,8 +24,6 @@ public class Main {
                 Map<String, Integer> m = map.get(state);
                 if (m.containsKey(city))
                     m.replace(city, m.get(city) + 1);
-                else
-                    m.put(city, 1);
             }
         }
     }
