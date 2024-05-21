@@ -23,7 +23,6 @@ public class Main {
             if (map.containsKey(state)) {
                 Map<String, Integer> m = map.get(state);
                 if (m.containsKey(city))
-                    m.replace(city, m.get(city) + 1);
             }
         }
     }
