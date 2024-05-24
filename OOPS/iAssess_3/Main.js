@@ -21,7 +21,6 @@ public class Main {
             String city = input[1];
 
             if (map.containsKey(state)) {
-                Map<String, Integer> m = map.get(state);
             }
         }
     }
