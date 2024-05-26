@@ -18,7 +18,6 @@ public class Main {
             System.out.println("Enter the address:");
             String[] input = in.nextLine().split(",");
             String state = input[2];
-            String city = input[1];
         }
     }
 }
