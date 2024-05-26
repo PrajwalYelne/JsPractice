@@ -15,7 +15,6 @@ public class Main {
         in.nextLine();
 
         for (int i = 0; i < n; i++) {
-            System.out.println("Enter the address:");
         }
     }
 }
