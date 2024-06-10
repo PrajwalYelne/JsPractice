@@ -12,6 +12,5 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number of address:");
         int n = in.nextInt();
-        in.nextLine();
     }
 }
