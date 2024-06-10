@@ -10,6 +10,5 @@ public class Main {
         Map<String, Map<String, Integer>> map = new TreeMap<>();
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number of address:");
     }
 }
