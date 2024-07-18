@@ -9,4 +9,4 @@ class Customer{
       this.name = name;
     }
      
-    s
+    sayWelcom
