@@ -14,4 +14,4 @@ class Customer{
         }
     }
  
-    var cust =
+    var cust = new Customer(
