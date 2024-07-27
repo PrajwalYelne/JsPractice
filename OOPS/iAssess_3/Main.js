@@ -13,3 +13,5 @@ class Customer{
          console.log(" Welcome " + this.name);
         }
     }
+ 
+    var cust =
