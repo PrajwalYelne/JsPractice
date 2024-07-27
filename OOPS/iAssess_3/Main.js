@@ -14,4 +14,4 @@ class Customer{
         }
     }
  
-    var cust = new Customer(
+    var cust = new Customer(input[0]);
