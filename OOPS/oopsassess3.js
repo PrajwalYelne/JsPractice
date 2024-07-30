@@ -12,4 +12,4 @@ class Customer{
     }
 }
  
-var cust = new Customer(i
+var cust = new Custom
