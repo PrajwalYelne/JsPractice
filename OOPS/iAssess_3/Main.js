@@ -15,4 +15,4 @@ class Customer{
     }
  
     var cust = new Customer(input[0]);
-    cu
+    cust.say
