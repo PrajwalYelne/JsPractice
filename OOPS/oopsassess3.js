@@ -9,6 +9,4 @@ class Customer{
  
     sayWelcome(){
         console.log("Welcome " + this.name);
-    }
-}
  
