@@ -12,4 +12,3 @@ class Customer{
     }
 }
  
-var cust =
