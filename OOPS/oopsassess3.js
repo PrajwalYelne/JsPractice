@@ -8,4 +8,4 @@ class Customer{
     }
  
     sayWelcome(){
-        console.log("Welcome 
+        console.log("Welc
