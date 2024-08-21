@@ -8,4 +8,3 @@ class Customer{
     }
  
     sayWelcome(){
-        console.log(
