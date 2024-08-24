@@ -7,4 +7,4 @@ class Customer{
         this.name = name;
     }
  
-    sayWelcome(){
+    say
