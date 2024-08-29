@@ -4,5 +4,4 @@ var input=fs.readFileSync('input.txt').toString().trim().split('\n');
  
 class Customer{
     constructor(name){
-        this.name = na
-    
+        this.name = 
