@@ -1,3 +1,3 @@
 var fs = require('fs');
-var input=fs.readFileSync('input.txt').toString().trim().s
+var input=fs.readFileSync('input.txt').toString().t
 //fill your code
