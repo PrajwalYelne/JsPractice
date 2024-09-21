@@ -1,3 +1,3 @@
 var fs = require('fs');
-var input=fs.readFileSync('input.t
+var input=fs.readFileSync('inpu
 //fill your code
